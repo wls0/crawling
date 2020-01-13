@@ -1,0 +1,43 @@
+
+#header .layout {
+  width: 1140px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+h1{
+  color: #fff;
+  padding-bottom: 10px;
+  text-align: center;
+}
+a {
+  color: #00B7FF;
+  text-decoration: none;
+}
+.rank_num{
+  font-weight: bold;
+  text-align: center;
+}
+.section1 {
+  width: 1140px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+#footer{
+  background-color: #d3d3d361;
+  height: 280px;
+} 
+#footer .content p{
+  font-size: 12px;
+  text-align: center;
+  padding-top: 40px;
+}
+#footer .content #footerContent{
+  font-size: 10px;
+  font-weight: bold;
+}
+#footer .content #copyright{
+  font-size: 10px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 50px;
+}
