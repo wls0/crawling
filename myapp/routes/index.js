@@ -1,7 +1,6 @@
 let express = require('express');
 let router = express.Router();
 let models = require('../models');
-let moment = require('moment');
 const request = require('request');
 const cheerio = require('cheerio');
 const iconv = require('iconv-lite');

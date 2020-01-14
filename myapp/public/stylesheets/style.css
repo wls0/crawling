@@ -9,13 +9,14 @@ h1{
   padding-bottom: 10px;
   text-align: center;
 }
-a {
-  color: #00B7FF;
-  text-decoration: none;
-}
-.rank_num{
+.rank_num a{
   font-weight: bold;
   text-align: center;
+  color:#000;
+}
+.rank_content a{
+  color: #17a2b8;
+  text-decoration: none;
 }
 .section1 {
   width: 1140px;
