@@ -42,3 +42,23 @@ h1{
   text-align: center;
   padding-top: 50px;
 }
+
+@media screen and (max-width: 1140px){
+  #header .layout {
+    width: 285px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  .section1 {
+    width: 570px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+}
+@media screen and (max-width: 570px){
+  .section1 {
+    width: 285px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+}
