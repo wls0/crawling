@@ -6,9 +6,10 @@ const cheerio = require('cheerio');
 const iconv = require('iconv-lite');
 
 router.get("/",function(req,res,next){
-  let url = "http://movie.naver.com/movie/sdb/rank/rmovie.nhn";
-  let craw =[];
-  let craw_a =[];
+  let url = "http://movie.naver.com/movie/sdb/rank/rmovie.nhn"; //가져올 사이트 주소
+  let craw =[]; //영화 이름
+  let craw_a =[]; //영화 자세히 보기
+  
   //대상 사이트에서 값 가져옴
   request({url, encoding:null}, function(err, response, body){
     let html_result=iconv.decode(body,'euc-kr');
